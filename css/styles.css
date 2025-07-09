@@ -14,10 +14,22 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  second-family: "Raleway", sans-serif;
-  font-weight: 700;
   background-color: var(--white);
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "wght";
+  font-style: normal;
+  font-variation-settings: "wght" 400, 500, 700;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h1 {
@@ -33,4 +45,8 @@ h1 {
 ul,
 ol {
   list-style-type: none;
+}
+
+.buttons {
+  cursor: pointer;
 }
