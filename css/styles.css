@@ -63,6 +63,7 @@ a:hover {
   text-decoration-skip-ink: none;
   color: var(--iris);
 }
+ul,
 ol {
   list-style-type: none;
 }
