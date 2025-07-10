@@ -15,22 +15,14 @@
 
 body {
   background-color: var(--white);
-}
-
-.roboto-font {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway" sans-serif;
   font-optical-sizing: auto;
   font-weight: "wght";
   font-style: normal;
   font-variation-settings: "wght" 400, 500, 700;
+  text-decoration: none;
 }
 
-.raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
 .hero-section {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -61,7 +53,7 @@ a {
   font-size: 12px;
   line-height: 1.33333;
   letter-spacing: 0.04em;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-skip-ink: none;
   color: var(--slate);
 }
@@ -75,6 +67,7 @@ a:hover {
   text-decoration-skip-ink: none;
   color: var(--iris);
 }
+
 ul,
 ol {
   list-style-type: none;
