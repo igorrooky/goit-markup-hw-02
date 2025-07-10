@@ -31,8 +31,21 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+.hero-section {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background-color: var(--navy-blue);
+}
 
-h1 {
+.team-section {
+  background: var(--cloud);
+}
+
+.h-main {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -40,7 +53,6 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  background-color: var(--navy-blue);
 }
 
 a {
@@ -76,4 +88,17 @@ ol {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+}
+
+.footr {
+  background: var(--navy-blue);
+}
+
+.p-footr {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
