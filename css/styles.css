@@ -166,7 +166,7 @@ a {
   color: var(--white);
 }
 
-.spdth2 {
+.spdthh {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -174,7 +174,7 @@ a {
   color: var(--navy-blue);
 }
 
-.spdth3 {
+.spdthhh {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -200,7 +200,7 @@ a {
   background: var(--cloud);
 }
 
-.teamh2 {
+.teamhh {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -209,7 +209,7 @@ a {
   color: var(--navy-blue);
 }
 
-.teamh3 {
+.teamhhh {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -225,11 +225,7 @@ a {
 }
 
 .ulteam {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 0;
+  background-color: var(--white);
 }
 
 .teamsection > ul > h3 {
@@ -247,7 +243,7 @@ a {
   color: var(--slate);
 }
 
-.portfh2 {
+.portfhh {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -256,7 +252,7 @@ a {
   color: var(--navy-blue);
 }
 
-.portfh3 {
+.portfhhh {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
