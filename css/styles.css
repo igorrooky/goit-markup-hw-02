@@ -114,8 +114,11 @@ a {
   text-transform: uppercase;
 }
 
-.addresslink {
+.address {
   font-style: normal;
+}
+
+.addresslink {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -163,7 +166,7 @@ a {
   color: var(--white);
 }
 
-.h2spdt {
+.spdth2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -171,7 +174,7 @@ a {
   color: var(--navy-blue);
 }
 
-.h3spdt {
+.spdth3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -197,7 +200,7 @@ a {
   background: var(--cloud);
 }
 
-.h2team {
+.teamh2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -206,7 +209,7 @@ a {
   color: var(--navy-blue);
 }
 
-.h3team {
+.teamh3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -244,7 +247,7 @@ a {
   color: var(--slate);
 }
 
-.h2portf {
+.portfh2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -253,7 +256,7 @@ a {
   color: var(--navy-blue);
 }
 
-.h3portf {
+.portfh3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
