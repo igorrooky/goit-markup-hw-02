@@ -24,8 +24,11 @@ body {
   color: var(--slate);
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu-link {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
