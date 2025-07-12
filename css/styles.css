@@ -138,13 +138,13 @@ a:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: var(--navy-blue);
 }
 
-.spdt-section > h2 {
+.h2-spdt {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -159,11 +159,11 @@ a:hover {
   color: var(--slate);
 }
 
-.team-section {
+.team-section > ul {
   background: var(--cloud);
 }
 
-.team-h2 {
+.h2-team {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -187,7 +187,7 @@ a:hover {
   color: var(--slate);
 }
 
-.portfolio-h2 {
+.h2-portfolio {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -220,7 +220,20 @@ ol {
 
 .buttons {
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
   background: var(--iris);
+}
+
+.buttons:hover {
+  background: var(--ocean);
+}
+
+.buttons:focus {
+  background: var(--ocean);
 }
 
 .footr {
