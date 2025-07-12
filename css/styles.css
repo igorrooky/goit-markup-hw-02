@@ -34,7 +34,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--navy-blue);
+  color: var(--slate);
 }
 
 .menu-link:hover {
@@ -171,6 +171,21 @@ a {
   color: var(--navy-blue);
 }
 
+.h3-spdt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.p-spdt {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
 .spdt-section > p {
   font-size: 16px;
   line-height: 1.5;
@@ -178,7 +193,7 @@ a {
   color: var(--slate);
 }
 
-.team-section > ul {
+.team-section {
   background: var(--cloud);
 }
 
@@ -189,6 +204,29 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: var(--navy-blue);
+}
+
+.h3-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.p.team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.ul-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
 }
 
 .team-section > ul > h3 {
@@ -206,7 +244,7 @@ a {
   color: var(--slate);
 }
 
-.h2-portfolio {
+.h2-portf {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -215,7 +253,7 @@ a {
   color: var(--navy-blue);
 }
 
-.h3-portfolio {
+.h3-portf {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -223,7 +261,7 @@ a {
   color: var(--navy-blue);
 }
 
-.p-portfolio {
+.p-portf {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
